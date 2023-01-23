@@ -1,0 +1,157 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #BG {
+            background: url('https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10vh 30vw;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 10px auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(248, 247, 245, 1);
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            padding: 5px 10px;
+            display: block;
+            text-decoration: none;
+            color: black;
+            margin: 5px 20px;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition: 0.5s;
+        }
+
+        a:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        section {
+            width: 95%;
+            margin: 30px auto;
+            padding: 50px;
+        }
+
+        #Cards {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            flex-wrap: wrap;
+        }
+
+        #Cards-2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            overflow-x: auto;
+        }
+
+        .Card {
+            width: 500px;
+            margin: 10px;
+            border: 2px solid grey;
+        }
+
+        .Card img {
+            width: 100%;
+        }
+
+        h3 {
+            text-align: center;
+            padding: 5px 10px;
+        }
+
+        .Card p {
+            padding: 20px;
+        }
+
+        .Small-Card {
+            width: 250px;
+            height: 250px;
+            margin: 10px 20px;
+        }
+
+        .Small-Card img {
+            width: 250px;
+            height: 250px;
+        }
+
+        #Hard {
+            background: url('https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1600');
+            background-size: 100%;
+            padding: 50px;
+            /* background-color: aqua; */
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #Cards-3 {
+            display: flex;
+            padding: 50px;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .Info-Card {
+            width: 300px;
+            height: 450px;
+            border: 2px solid grey;
+            margin: 10px 20px;
+            text-align: center;
+        }
+
+        .Info-Card img {
+            height: 50%;
+            width: 100%;
+        }
+
+        .Info-Card h3 {
+            padding: 20px;
+        }
+
+        #Logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        footer {
+            text-align: center;
+            user-select: none;
+            background-color: rgba(248, 247, 245, 1);
+            padding: 10px;
+            font-weight: bold;
+        }
+
