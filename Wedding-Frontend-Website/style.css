@@ -1,0 +1,23 @@
+.carousel-item p {
+    font-weight: bold;
+    border-radius: 10px;
+    background: dodgerblue;
+    padding: 10px 15px;
+}
+
+.carousel-item h1 {
+    background: rgba(22, 81, 153, 0.8);
+    color: whitesmoke;
+    padding: 5px 10px;
+    display: inline-block;
+
+}
+
+img {
+    user-select: none;
+}
+
+footer {
+
+    padding: 10px;
+}
